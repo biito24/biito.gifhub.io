@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    font-family: 'Bayon', sans-serif;
+    font-family: 'Hanuman', serif;
+}
+h1,h2,p,ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu-bar{
+    width: 100%;
+    float: left;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.menu{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-family: 'Bayon', sans-serif;
+}
+.menu ul li a:hover{
+    color: black;
+}
+.menu ul li.btn-search{
+    float: right;
+}
+.menu ul li.logo a{
+    padding: 0;
+}
+.menu ul li.logo a img{
+    height: 50px;
+    margin-top: 5px;
+}
+.container{
+    width: 80%;
+    background-color: #eee;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 65px;
+}
+.tranding-box{
+    width: 100%;
+    background-color: pink;
+    float: left;
+    height: 45px;
+}
+.tranding-box .box1{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.tranding-box .box2{
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.tranding-box .box2 ul li{
+    float: left;
+}
+.tranding-box .box2 ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black; 
+}
+.tranding-box .box2 ul li a i{
+    color: crimson;
+}
+.tranding-box .box2 ul li a:hover{
+    color: crimson;
+}
+.new-container{
+    width: 100%;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+}
+.slide-box{
+    width: 100%;
+    height: 410px;
+}
+.slide-box .box{
+    width: 49.5%;
+    height: 100%;
+    float: left;
+}
+.slide-box .box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.slide-box .box1{
+    overflow: hidden;
+    position: relative;
+}
+.slide-box .box1 h1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.175),rgba(255, 255, 255, 0.17));
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.slide-box .box1:hover img{
+    transform: scale(1.1);
+}
+.slide-box .box2{
+    margin-left: 1%;
+}
+.slide-box .box3{
+    width: 100%;
+    height: 49.5%;
+}
+.slide-box .box4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide-box .box5{
+    margin-top: 0.8%;
+}
+.slide-box .box6{
+    width: 49.5%;
+    height: 100%;
+    float: left;
+}
+.slide-box .box8{
+    margin-left: 1%;
+}
+.slide-box .box7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide-box .box8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left-box{
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+}
+.right-box{
+    width: 29%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+.left-box .item-container{
+    width: 100%;
+    float: left; 
+    margin-bottom: 15px;
+}
+.left-box .item-container .title-box{
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid crimson;
+}
+.left-box .title-box h1{
+    font-size: 15px;
+    float: left;
+    background-color: crimson;
+    padding: 8px 12px;
+    padding-right: 25px;
+    color: white;
+    font-family: 'Bayon', sans-serif;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);
+}
+.left-box .item-container .box{
+    width: 49.5%;
+    height: 330px;
+    float: left;
+}
+.left-box .item-container .box-2{
+    margin-left: 1%;
+}
+.left-box .item-container .box-1 .txt-box{
+    width: 100%;
+    height: 30%;
+    float: left;
+    padding: 1px;
+}
+.left-box .item-container .box-1{
+    overflow: hidden;
+}
+.left-box .item-container .box-1 .img-box{
+    width: 100%;
+    height: 70%;
+    background-color: gray;
+    float: left;
+}
+.left-box .item-container .box-1 .img-box:hover img{
+    transform: scale(1.1);
+}
+.left-box .item-container .box-1 .txt-box h1{
+    font-size: 18px;
+}
+.left-box .item-container .box-1 .txt-box h2{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.left-box .item-container .box-1 .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.left-box .item-container .box-2 .item-box{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+}
+.left-box .item-container .box-2 .item-box .img-box{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.left-box .item-container .box-2 .item-box .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left-box .item-container .box-2 .item-box .txt-box{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.left-box .item-container .box-2 .item-box .txt-box h1{
+    font-size: 15px;
+    padding-left: 8px;
+}
+.item-container1{
+    width: 100%;
+    float: left;
+}
+.item-container1 .title-box1{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid crimson;
+}
+.item-container1 .title-box1 h1{
+    font-size: 18px;
+    float: left;
+    background-color: crimson;
+    padding: 8px 15px;
+    color: white;
+    padding-right: 25px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);
+}
+.right-box ul li{
+    width: 100%;
+    float: left;
+}
+.right-box ul li a img{
+    width: 100%;
+    margin-top: 10px;
+}
+.right-box ul li iframe{
+    width: 100%;
+    float: left;
+}
